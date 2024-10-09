@@ -1,0 +1,32 @@
+@import url(./fonts.css);
+@import url(./responsiveness.css);
+
+:root {
+  font-family: "Noto Sans", "Lora", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  margin: 0;
+}
+
+input{
+  outline: none !important;
+}
+
+a{
+  font-family: "Noto Sans";
+  font-weight: 400;
+  text-decoration: none;
+  color: #61227D;
+}

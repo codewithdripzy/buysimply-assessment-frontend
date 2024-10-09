@@ -1,0 +1,266 @@
+.login-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.login-carousel{
+    width: 50vw;
+    background-color: #F8EAFF;
+    height: 100vh;
+    padding: 0px 65px;
+}
+
+.logo-container{
+    width: 100%;
+    margin: 24px 0px 47px;
+}
+
+.logo-container > img{
+    width: 198px;
+}
+
+.image-container{
+    width: 100%;
+}
+
+.image-container > img{
+    width: 100%;
+}
+
+.carousel-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.carousel-footer-title{
+    font-family: "Lora";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #61227D;
+}
+
+.carousel-footer-description{
+    font-family: "Lora";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #5E5E5E;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(50vw - 58.5px);
+    /* height: 100vh; */
+    padding: 58.5px;
+}
+
+.form-logo{
+    justify-content: center;
+    align-items: center;
+    width: 198px;
+    margin: 40px;
+    display: none;
+}
+
+.form-logo > img{
+    width: 100%;
+}
+
+.form-heading{
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lora";
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.form-title{
+    font-family: "Lora";
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #61227D;
+}
+
+.form-caption{
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #5E5E5E;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+label[for="email"], label[for="password"]{
+    align-self: flex-start;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #5E5E5E;
+}
+
+.required-tag{
+    color: red;
+}
+
+input[type="email"], .password-container > input{
+    background-color: #fff;
+    font-family: "Noto Sans";
+    font-size: 13px 10px 13px 10px;
+    font-weight: 400;
+    padding: 16px;
+    color: #5E5E5E;
+    width: calc(100% - 32px);
+}
+
+input[type="email"]{
+    border: 1px solid #DDD;
+    border-radius: 8px;
+}
+
+.password-container > input{
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+}
+
+input[type="email"]::placeholder, .password-container > input::placeholder{
+    font-size: 14px;
+    color: #7D7D7D;
+}
+
+.password-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #DDD;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.password-toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 100%;
+    background-color: #F7F7F7;
+    border-left: 1px solid #C6C6C6;
+    border-radius: 0px 8px 8px 0px;
+    color: #7D7D7D;
+    cursor: pointer;
+}
+
+.form-meta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.remember{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.remember > input[type="checkbox"]{
+    padding: 5px;
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+    background-color: #fff;
+    accent-color: #61227D;
+    border: 1px solid #7D7D7D;
+}
+
+.remember > label{
+    font-family: "Noto Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: #7D7D7D;
+}
+
+.forgot-psw{
+}
+
+.forgot-psw {
+    font-size: 14px;
+}
+
+.form-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.form-button > button{
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px;
+    background-color: #61227D;
+}
+
+.form-button > span{
+    font-size: 15px;
+    color: #fff;
+}
+
+.alt-option{
+    display: flex;
+    gap: 4px;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.alt-option > span{
+    color: #5E5E5E;
+}
+
+.alt-option > a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #61227D;
+}

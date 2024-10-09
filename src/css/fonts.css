@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Noto Sans";
+    src: url(../assets/fonts/noto-sans.ttf);
+}
+
+@font-face {
+    font-family: "Noto Sans Italic";
+    src: url(../assets/fonts/noto-sans-italic.ttf);
+}
+
+@font-face {
+    font-family: "Lora";
+    src: url(../assets/fonts/lora.ttf);
+}
+
+@font-face {
+    font-family: "Lora Italic";
+    src: url(../assets/fonts/lora-italic.ttf);
+}
